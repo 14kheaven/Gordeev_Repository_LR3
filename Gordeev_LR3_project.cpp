@@ -5,38 +5,36 @@ using namespace std;
 
 double EnterA() {
 int a;
-cout << "Введите положительное число: ";
+cout << "Введите положительное число A: ";
 cin >> a;
 cout << endl;
 if (a <= 0) {
     cout << "Введите положительное число." << endl;
     return EnterA();
 }
-cout << "Введеное число: " << a << endl;
+cout << "Введеное число A: " << a << endl;
 }
 
 double EnterB() {
 int b;
-cout << "Введите положительное число: ";
+cout << "Введите положительное число B: ";
 cin >> b;
 cout << endl;
 if (b <= 0) {
     cout << "Введите положительное число." << endl;
     return EnterB();
 }
-cout << "Введеное число: " << b << endl;
+cout << "Введеное число B: " << b << endl;
 }
 
 double FindS() {
-double b, c, h;
-cin >> b;
-cin >> c;
-cin >> h;
-double s;
-s = (b * c * h);
-cout << "Площадь треугольника равна: " << s << endl;
+double S;
+s = (a * b);
+cout << "Площадь прямоугольника равна: " << S << endl;
 }
 
 double FindP() {
-
+double P;
+P = 2*(a + b);
+cout << "Площадь прямоугольника равна: " << P << endl;
 }
