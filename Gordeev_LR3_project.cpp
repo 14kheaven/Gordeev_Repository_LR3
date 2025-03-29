@@ -28,7 +28,13 @@ cout << "Введеное число: " << b << endl;
 }
 
 double FindS() {
-
+double b, c, h;
+cin >> b;
+cin >> c;
+cin >> h;
+double s;
+s = (b * c * h);
+cout << "Площадь треугольника равна: " << s << endl;
 }
 
 double FindP() {
