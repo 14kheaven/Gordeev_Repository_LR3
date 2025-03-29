@@ -16,7 +16,15 @@ cout << "Введеное число: " << a << endl;
 }
 
 double EnterB() {
-
+int b;
+cout << "Введите положительное число: ";
+cin >> b;
+cout << endl;
+if (b <= 0) {
+    cout << "Введите положительное число." << endl;
+    return EnterB();
+}
+cout << "Введеное число: " << b << endl;
 }
 
 double FindS() {
